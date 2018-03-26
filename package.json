@@ -17,7 +17,6 @@
   "module": "src/index.js",
   "scripts": {
     "build": "webpack-cli --mode production",
-    "lint": "eslint src test",
     "test": "cross-env BABEL_ENV=test nyc mocha"
   },
   "dependencies": {
@@ -48,6 +47,9 @@
   },
   "keywords": [
     "events",
-    "emitter"
+    "emitter",
+    "observer",
+    "listener",
+    "subscription"
   ]
 }
