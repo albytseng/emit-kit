@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+
+# Dependency files
+node_modules/
+
+# Build files
+dist/
+
+# Coverage files
+coverage/
+.nyc_output
+
+# Log files
+yarn-error.log

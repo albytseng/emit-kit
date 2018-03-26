@@ -1,0 +1,5 @@
+language: node_js
+node_js: [node]
+
+after_success:
+  - 'yarn add coveralls@3 && nyc report --reporter=text-lcov | coveralls'
