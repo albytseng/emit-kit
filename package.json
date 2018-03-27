@@ -1,6 +1,6 @@
 {
   "name": "emit-kit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A wrapper on top of eventemitter3 with the abstractions of event-kit.",
   "author": "Alby Tseng <albytseng@gmail.com>",
   "license": "MIT",
