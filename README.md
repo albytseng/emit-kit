@@ -66,7 +66,7 @@ class Supervillain {
 - __`.cancel()`__
   - Unsubscribes from the event emitter.
 
-## `Subscriptions`
+### `Subscriptions`
 
 - __`.add(...subs)`__
   - Groups `subs` together so that they can later be cancelled as a group.
