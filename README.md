@@ -1,6 +1,6 @@
 # emit-kit
 
-[![Build Status](https://img.shields.io/travis/albytseng/emit-kit.svg)](https://travis-ci.org/albytseng/emit-kit) [![Coverage Status](https://img.shields.io/coveralls/github/albytseng/emit-kit/master.svg)](https://coveralls.io/github/albytseng/emit-kit?branch=master) [![dependencies Status](https://img.shields.io/david/albytseng/emit-kit.svg)](https://david-dm.org/albytseng/emit-kit) [![npm Version](https://img.shields.io/npm/v/emit-kit.svg)](https://www.npmjs.com/package/emit-kit)
+[![Build Status](https://img.shields.io/travis/albytseng/emit-kit.svg)](https://travis-ci.org/albytseng/emit-kit) [![Coverage Status](https://img.shields.io/coveralls/github/albytseng/emit-kit/master.svg)](https://coveralls.io/github/albytseng/emit-kit?branch=master) [![Inline Docs](http://inch-ci.org/github/albytseng/emit-kit.svg?branch=master&style=shields)](http://inch-ci.org/github/albytseng/emit-kit) [![dependencies Status](https://img.shields.io/david/albytseng/emit-kit.svg)](https://david-dm.org/albytseng/emit-kit) [![npm Version](https://img.shields.io/npm/v/emit-kit.svg)](https://www.npmjs.com/package/emit-kit)
 
 A wrapper on top of [`eventemitter3`](https://github.com/primus/eventemitter3) with the convenient abstractions of [`event-kit`](https://github.com/atom/event-kit).
 
