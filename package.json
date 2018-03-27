@@ -16,12 +16,13 @@
   "main": "dist/emit-kit.js",
   "module": "src/index.js",
   "scripts": {
-    "build": "webpack-cli --mode production",
+    "build": "webpack-cli --mode development",
+    "build:prod": "webpack-cli --mode production",
     "test": "cross-env BABEL_ENV=test nyc mocha"
   },
   "dependencies": {
     "eventemitter3": "^3.0.1",
-    "limited-use": "^1.0.2"
+    "limited-use": "^1.0.3"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-babel": "^1.2.3",

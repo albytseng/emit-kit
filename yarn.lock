@@ -3236,9 +3236,9 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-limited-use@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/limited-use/-/limited-use-1.0.2.tgz#be0e97be506a78158da495c6041eefd2e8a1970a"
+limited-use@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/limited-use/-/limited-use-1.0.3.tgz#72030e3d1439d190c1379b864276930495e08fd1"
 
 listr-silent-renderer@^1.1.1:
   version "1.1.1"

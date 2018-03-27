@@ -72,4 +72,7 @@ class Supervillain {
   - Groups `subs` together so that they can later be cancelled as a group.
 
 - __`.cancel()`__
-  - Calls `cancel` on all associated `subs`.
+  - Calls `cancel` asynchronously on all associated `subs`. Returns a promise that fulfills upon completion.
+
+- __`.cancelSync()`__
+  - Calls `cancel` synchronously on all associated `subs`.

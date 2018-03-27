@@ -24,7 +24,10 @@ class Emitter {
   on(e, fn, context) {
     const emitter = _getEmitter(this);
     emitter.on(e, fn, context);
-    return new Subscription(() => emitter.removeListener(e, fn, context));
+    return new Subscription(() => {
+      emitter.removeListener(e, fn, context);
+      return Promise.resolve();
+    });
   }
 
   /**
@@ -37,7 +40,10 @@ class Emitter {
   once(e, fn, context) {
     const emitter = _getEmitter(this);
     emitter.once(e, fn, context);
-    return new Subscription(() => emitter.removeListener(e, fn, context, true));
+    return new Subscription(() => {
+      emitter.removeListener(e, fn, context, true);
+      return Promise.resolve();
+    });
   }
 
   /**

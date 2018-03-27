@@ -1,8 +1,24 @@
 import {CollectiveUse} from 'limited-use';
 
-class Subscriptions extends CollectiveUse {
+const _subsGroups = new WeakMap();
+const _setSubsGroup = WeakMap.prototype.set.bind(_subsGroups);
+const _getSubsGroup = WeakMap.prototype.get.bind(_subsGroups);
+
+class Subscriptions {
+  constructor(...subs) {
+    _setSubsGroup(this, new CollectiveUse(...subs));
+  }
+
+  add(...subs) {
+    _getSubsGroup(this).add(...subs);
+  }
+
   cancel() {
-    super.use();
+    return _getSubsGroup(this).use();
+  }
+
+  cancelSync() {
+    return _getSubsGroup(this).useSync();
   }
 }
 
